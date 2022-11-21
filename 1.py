@@ -3,7 +3,7 @@ def tobase3(n):
     while n!=0:
         rem = n%3 
         n = n//3 
-        res+=str(rem)
+        res = str(rem)+res
     return int(res)
  
     
